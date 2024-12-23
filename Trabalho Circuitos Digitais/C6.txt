@@ -1,0 +1,6 @@
+entradas:['A','B','C','D']
+saidas:['Y']
+gates:['g1','g2','g3']
+g1:['nand','A','B']
+g2:['nand','C','D']
+g3:['nand','g1','g2']

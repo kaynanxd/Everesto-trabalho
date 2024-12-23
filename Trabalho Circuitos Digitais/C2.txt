@@ -1,0 +1,6 @@
+entradas:['A','B','C']
+saidas:['Y']
+gates:['g1','g2','g3']
+g1:['not','A']
+g2:['and','B','C']
+g3:['or','g1','g2']
